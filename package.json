@@ -1,0 +1,18 @@
+{
+  "name": "coindex-cli",
+  "version": "1.0.0",
+  "description": "An Node CLI for querying digital coin prices",
+  "main": "index.js",
+  "type": "module",
+  "bin": "./bin/coindex-cli.js",
+  "keywords": [],
+  "author": "Nicolás Rodríguez",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "colors": "^1.4.0",
+    "commander": "^9.2.0",
+    "configstore": "^6.0.0",
+    "inquirer": "^8.2.2"
+  }
+}
